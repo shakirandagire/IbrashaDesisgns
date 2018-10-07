@@ -1,0 +1,147 @@
+body {
+    background-image: url(../img/shop.jpg);
+    background-size: 110%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+h1{
+    text-align: center;
+    padding: 30% 0%;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+}
+
+p.landing{
+    text-align: center;
+    font-size: 30px;
+    margin-top:-170px;
+    color:black;
+}
+
+button{
+    height: 50px;
+    width: 215px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: grey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%
+    
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.card {
+    margin-top: 4%;
+    border-radius: 4px;
+    width: 50%;
+    
+}
+
+.container {
+    padding: 2px 0.5px;
+    width: 30%;
+    margin-top: -5px;
+    background-color:gainsboro;
+    text-align: center;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+img{
+    width:30%;
+}
+
+input{
+    width: 40%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    background-color: #333333;
+    color:white;
+
+}
+
+button#signup{
+    text-align: center;
+    background-color: gray;
+    display: block;
+    width: 15%;
+    margin-left: 298px;
+    border-radius: 5px;
+}
+
+form{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+label{
+    color:black;
+    padding: 20px;
+    font-size: 20px;
+}
+h3{
+    color:black;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.section1{
+	background-color:transparent;
+	width:50%;
+	float:left;
+	height:100vh;
+	border-right: 1vw solid #F5E5D6; 
+    box-sizing: border-box;
+    margin:0;
+    padding:0;	
+}
+.section2{
+	background-color:transparent;
+	width:50%;
+	float:left;
+	height:100vh;
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
